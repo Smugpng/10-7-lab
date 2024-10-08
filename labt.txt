@@ -1,0 +1,7 @@
+Code Segment aby uses the prototype pattern. We think it's a prototype because it uses Clone to make the Los Angeles Branch based off of the New York City branch. None of the other prototypes make sense with what the code is doing.
+
+Code segment cwm uses the proxy and adapter patterns. We think it's these because Main is making a website that is calling SignInAuthentication with a function from software. So it's a proxy because main is talking to a middleman (website) which is using a function from software to convert the signIn to something that SignInAuthentication can use. ... some more stuff
+
+Code segment kef uses the proxy pattern. We think it's a proxy as CreditCardPayment adds the line Console.WriteLine("Purchase price: $" + purchasePrice); to IMoney's class. So it's a proxy because Main is talking to a middle man (CreditCardPayment) which uses the class from IMoney while adding an additional behavior to that class.
+
+Code segment KIR uses proxy and adapter patters. We think it's these as Main talks to creditcardpayment which adds its own behavior to IMoney's class while inherting it. and OnlinePayment gets called from main and then sends that information to IMoney without inherting it to adapt it???
