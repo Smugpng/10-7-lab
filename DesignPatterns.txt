@@ -1,0 +1,17 @@
+Code Segment aby uses the prototype pattern. We think it's a prototype because it uses Clone to make the Los Angeles Branch based off of the New York City branch. None of the other prototypes make sense with what the code is doing.
+
+Code segment cwm uses the proxy and adapter patterns. We think it's these because Main is making a website that is calling SignInAuthentication with a function from software. So it's a proxy because main is talking to a middleman (website) which is using a function from software to convert the signIn to something that SignInAuthentication can use, which is where the adapter pattern comes in.
+
+Code segment kef uses the proxy pattern. We think it's a proxy as CreditCardPayment adds the line Console.WriteLine("Purchase price: $" + purchasePrice); to IMoney's class. So it's a proxy because Main is talking to a middle man (CreditCardPayment) which uses the class from IMoney while adding an additional behavior to that class.
+
+Code segment KIR uses the proxy and adapter patterns. We think it's these as Main talks to creditcardpayment which adds its own behavior to IMoney's class while inherting it. OnlinePayment gets called from main and then sends that information to IMoney without inherting it to adapt it???
+
+Code segment pyx uses the adapter pattern. We think it's an adapter because the etherAdapter is made in main with a reference to etherPayment in order to use the TransactEther method from EtherPayment.
+
+Code segment ret uses the singleton pattern. We think it's a singleton because Person has a static Instance property so it'll either make a new one if there isn't one already, or return the existing one.
+
+Code segment rom uses the proxy pattern. We think it's a proxy because EtherPayment exists solely to write a line to the console instead of writing the line in main. 
+
+Code segment tow uses the factory pattern. We think it's a factory because Software has an abstract method called BuildAuthorization that gets overriden by other classes like Website to make an object that has the IAuthentication interface.
+
+Code segment vug uses the adapter pattern. We think it's an adapter because EtherPayment uses EtherAdapter to interact with the IMammothBank interface. EtherAdapter is used when main wants to use Store's Transact function since Store needs the IMammothBank interface.
